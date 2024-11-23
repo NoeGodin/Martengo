@@ -1,3 +1,7 @@
-body {
-    background: red;
+:root {
+    --primary: #c244f4;
+    --secondary: #00bcd4;
+    --accent: #00bcd4;
+    --headings: #1b0706;
+    --body: #918ca4;
 }
