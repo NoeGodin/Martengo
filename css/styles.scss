@@ -378,3 +378,52 @@ a {
 .media__image {
   margin-top: 1rem;
 }
+
+// Quote
+
+.quote {
+  font-size: 3rem;
+  font-style: italic;
+  color: darken($color-body, 20%);
+}
+
+.quote__text::before {
+  content: open-quote;
+}
+
+.quote__text::after {
+  content: close-quote;
+}
+
+.quote__author {
+  font-size: 3rem;
+  font-weight: 500;
+  font-style: normal;
+  margin-bottom: 0;
+}
+
+.quote__profession {
+  color: $color-headings;
+  opacity: .4;
+  font-size: 2rem;
+  font-style: normal;
+}
+
+.quote__line {
+  position: relative;
+  bottom: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+  .quote {
+    font-size: 2rem;
+  }
+
+  .quote__author {
+    font-size: 2.4rem;
+  }
+
+  quote__organisation {
+    font-size: 1.6rem;
+  }
+}
