@@ -6,8 +6,8 @@
               transform="matrix(0.78, -0.63, 0.63, 0.78, -21.26, 15.39)"></rect>
         <rect x="33.3" y="27.9" width="1.6" height="15.24" rx="0.8" transform="translate(24 -21.9) rotate(37.3)"></rect>
     </symbol>
-    <symbol version="1.1" id="clock" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-            x="0px" y="0px" xml:space="preserve" viewBox="0 0 501.656 501.656">
+    <symbol id="clock" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            xml:space="preserve" viewBox="0 0 501.656 501.656">
     <g>
       <g>
         <path d="M342.512,328h-200c-2.122,0-4.156,0.844-5.656,2.344l-96,96l11.312,11.312L145.824,344h187.888
@@ -115,8 +115,8 @@
             <path d="m16.5 17h-9c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h9c.276 0 .5.224.5.5s-.224.5-.5.5z"></path>
         </g>
     </symbol>
-    <symbol version="1.1" id="quotes" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-            x="0px" y="0px" xml:space="preserve" viewBox="0 0 508.044 508.044">
+    <symbol id="quotes" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            xml:space="preserve" viewBox="0 0 508.044 508.044">
     <g>
       <g>
         <path d="M0.108,352.536c0,66.794,54.144,120.938,120.937,120.938c66.794,0,120.938-54.144,120.938-120.938
@@ -148,8 +148,8 @@
         <path d="M11,17.9a8.7,8.7,0,0,0,.8,4.8,1,1,0,0,0,1.2.4.8.8,0,0,0,.4-1.2,8.3,8.3,0,0,1-.7-3.8,7.6,7.6,0,0,1,15.2,1.1A7.7,7.7,0,0,1,16.1,25a.8.8,0,0,0-1.2.2.9.9,0,0,0,.2,1.3A10,10,0,0,0,19.6,28a9.3,9.3,0,0,0,6.1-1.7l5.5,6.4a.9.9,0,0,0,.6.3.7.7,0,0,0,.7-.2.9.9,0,0,0,.1-1.2L27,25.2a8.9,8.9,0,0,0,2.6-5.8A9.3,9.3,0,1,0,11,17.9Z"
               transform="translate(-10.9 -9.3)"></path>
     </symbol>
-    <symbol version="1.1" id="settings" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-            x="0px" y="0px" xml:space="preserve" viewBox="0 0 485.656 485.656">
+    <symbol id="settings" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            xml:space="preserve" viewBox="0 0 485.656 485.656">
     <g>
       <g>
         <path d="M334.512,312h-200c-2.122,0-4.156,0.844-5.656,2.344l-96,96l11.312,11.312L137.824,328h187.888
@@ -216,8 +216,8 @@
             <path d="m284.988 218.5c29.7 0 53.864-24.671 53.864-54.995s-24.164-54.995-53.864-54.995-53.863 24.671-53.863 54.995 24.163 54.995 53.863 54.995zm0-97.99c23.084 0 41.864 19.287 41.864 42.995s-18.78 43-41.864 43-41.863-19.288-41.863-42.995 18.775-42.996 41.863-42.996z"></path>
         </g>
     </symbol>
-    <symbol version="1.1" id="wordpress" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-            x="0px" y="0px" xml:space="preserve" viewBox="0 0 512 512">
+    <symbol id="wordpress" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            xml:space="preserve" viewBox="0 0 512 512">
     <g>
       <g>
         <g>
