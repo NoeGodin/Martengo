@@ -197,7 +197,7 @@ a {
   font-size: 1.8rem;
   font-weight: bold;
   text-transform: uppercase;
-  padding: 2rem 3rem;
+  padding: 2rem 4vw;
   border: none;
   border-radius: 40px;
   cursor: pointer;
@@ -293,6 +293,7 @@ a {
   border: none;
   flex-grow: 1;
   padding: 1.5rem 2rem;
+  width: 0;
 }
 
 .input-group .btn {
@@ -763,8 +764,9 @@ a {
 }
 
 .block-engraving__prices {
+  color: $color-headings;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 6rem);
   font-size: 2rem;
   font-weight: 600;
