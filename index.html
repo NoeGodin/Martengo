@@ -6,8 +6,17 @@
       name="viewport"
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
+    <meta
+      name="description"
+      content="Achetez des marteaux de très bonne qualité directement ou sous la forme d'un abonnement"
+    />
+    <meta property="og:title" content="Martengo..." />
+    <meta property="og:description" content="Martengo..." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="website" />
+    <meta property="og:url" content="https:://www.martengo.com" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+    <title>Martengo - Des Marteaux à partir de 10€</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,8 +25,405 @@
     />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
+    <header>
+      <nav class="nav collapsible">
+        <a class="nav__brand" href="/"
+          ><img src="images/logo.svg" alt="" />
+          <h1 class="nav__title">Martengo</h1></a
+        >
+        <svg class="icon icon--white nav__toggler">
+          <use xlink:href="images/sprite.svg#menu"></use>
+        </svg>
+        <ul class="list nav__list collapsible__content">
+          <li class="nav__item"><a href="#">Nos Articles</a></li>
+          <li class="nav__item"><a href="#">Services</a></li>
+          <li class="nav__item"><a href="#">Fabrication</a></li>
+          <li class="nav__item"><a href="#">À Propos</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="block block--dark block block--skewed-left block">
+      <div class="container grid grid--1x2">
+        <header class="block__header hero__content">
+          <h1 class="block__heading">Un marteau à prix marteau</h1>
+          <p class="hero__tagline">Plus qu'un outil, un marteau</p>
+          <a href="" class="btn btn--primary btn--stretched">Se lancer</a>
+        </header>
+        <picture>
+          <source
+            type="image/webp"
+            srcset="./images/jayce.webp 1x, ./images/jayce@2x.webp 2x"
+          />
+          <source
+            type="image/png"
+            srcset="./images/jayce.png 1x, ./images/jayce@2x.png 2x"
+          />
+          <img src="images/jayce.png" alt="" />
+        </picture>
+      </div>
+    </section>
+    <section class="block container block-engraving">
+      <header class="block__header">
+        <h2>Votre gravure</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
+          accusantium commodi dolor ex neque nihil numquam omnis sed velit
+          voluptatem.
+        </p>
+        <div class="input-group">
+          <input
+            type="text"
+            name=""
+            id=""
+            class="input"
+            placeholder="Marteau rond"
+          />
+          <button class="btn btn--accent">
+            <svg class="icon icon--white">
+              <use xlink:href="images/sprite.svg#search"></use>
+            </svg>
+            Search
+          </button>
+        </div>
+        <ul class="list block-engraving__prices">
+          <li><span class="badge badge--secondary">bronze 5€</span></li>
+          <li>argent 7€</li>
+          <li>or 10€</li>
+          <li>platine 12€</li>
+          <li>titane 15€</li>
+          <li>diamants 20€</li>
+        </ul>
+      </header>
+    </section>
+
+    <section class="block container block-plans">
+      <div class="grid grid--1x3">
+        <div class="plan">
+          <div class="card card--secondary">
+            <header class="card__header">
+              <h3 class="plan__name">Standard</h3>
+              <span class="plan__price">9€</span>
+              <span class="plan__billing-cycle">/mensuel</span>
+              <span class="badge badge--secondary badge--small">10% off</span>
+              <span class="plan__description"
+                >Pour les amateurs de marteau</span
+              >
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__item">Loue 1 marteau par mois</li>
+                <li class="list__item">Moyenne gamme de marteau ~50€</li>
+                <li class="list__item">Assistance 7j/7</li>
+              </ul>
+              <button class="btn btn--outline btn--block">Acheter</button>
+            </div>
+          </div>
+        </div>
+        <div class="plan plan--popular">
+          <div class="card card--primary">
+            <header class="card__header">
+              <h3 class="plan__name">Pro</h3>
+              <span class="plan__price">17€</span>
+              <span class="plan__billing-cycle">/mensuel</span>
+              <span class="badge badge--primary badge--small">15% off</span>
+              <span class="plan__description"
+                >Pour les passionnés du marteau</span
+              >
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__item">Loue jusqu'à 3 marteau par mois</li>
+                <li class="list__item">Haute gamme de marteau ~100€</li>
+                <li class="list__item">Assistance 7j/7</li>
+              </ul>
+              <button class="btn btn--outline btn--block">Acheter</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="plan">
+          <div class="card card--secondary">
+            <header class="card__header">
+              <h3 class="plan__name">Business</h3>
+              <span class="plan__price">50€</span>
+              <span class="plan__billing-cycle">/mensuel</span>
+              <span class="plan__description">Pour les plus marteaux</span>
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__item">loue jusqu'à 1000 marteaux par mois</li>
+                <li class="list__item">Marteaux inestimables</li>
+                <li class="list__item">DJ Frank set 24h/24 7j/7</li>
+              </ul>
+              <button class="btn btn--outline btn--block">Acheter</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block container">
+      <header class="block__header">
+        <h2>Les meilleurs marteaux du marché</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores,
+          porro, vel. Alias commodi consequuntur iure nostrum odio odit qui vel?
+        </p>
+      </header>
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content" data-aos="fade-right">
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+              <use xlink:href="images/sprite.svg#easy"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading">Facile d'utilisation</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
+            aliquid beatae distinctio earum labore minus praesentium ullam
+            voluptatem voluptatibus, voluptatum?
+          </p>
+          <a class="link-arrow" href="#">En apprendre plus</a>
+        </div>
+        <picture data-aos="zoom-in-left">
+          <source
+            type="images/webp"
+            srcset="images/easy.webp 1x, images/easy@2x.webp 2x" />
+          <source
+            type="images/jpg"
+            srcset="images/easy.jpg 1x, images/easy@2x.jpg 2x" />
+          <img class="feature__image" src="images/easy.jpg" alt=""
+        /></picture>
+      </article>
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content">
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+              <use xlink:href="images/sprite.svg#easy"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading">Facile d'utilisation</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
+            aliquid beatae distinctio earum labore minus praesentium ullam
+            voluptatem voluptatibus, voluptatum?
+          </p>
+          <a class="link-arrow" href="#">En apprendre plus</a>
+        </div>
+        <picture>
+          <source
+            type="images/webp"
+            srcset="images/easy.webp 1x, images/easy@2x.webp 2x" />
+          <source
+            type="images/jpg"
+            srcset="images/easy.jpg 1x, images/easy@2x.jpg 2x" />
+          <img class="feature__image" src="images/easy.jpg" alt=""
+        /></picture>
+      </article>
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content">
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+              <use xlink:href="images/sprite.svg#easy"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading">Facile d'utilisation</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
+            aliquid beatae distinctio earum labore minus praesentium ullam
+            voluptatem voluptatibus, voluptatum?
+          </p>
+          <a class="link-arrow" href="#">En apprendre plus</a>
+        </div>
+        <picture>
+          <source
+            type="images/webp"
+            srcset="images/easy.webp 1x, images/easy@2x.webp 2x" />
+          <source
+            type="images/jpg"
+            srcset="images/easy.jpg 1x, images/easy@2x.jpg 2x" />
+          <img class="feature__image" src="images/easy.jpg" alt=""
+        /></picture>
+      </article>
+    </section>
+
+    <section class="block block--dark block--skewed-right block-showcase">
+      <header class="block__header">
+        <h2>Facile à prendre en main</h2>
+      </header>
+      <div class="container grid grid--1x2">
+        <picture class="block-showcase__image">
+          <source
+            type="image/webp"
+            srcset="./images/torbjorn.webp 1x, ./images/torbjorn@2x.webp 2x"
+          />
+          <source
+            type="image/png"
+            srcset="./images/torbjorn.png 1x, ./images/torbjorn@2x.png 2x"
+          />
+          <img src="images/torbjorn.png" alt="" />
+        </picture>
+        <ul class="list">
+          <li>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary">
+                  <use xlink:href="images/sprite.svg#wordpress"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title">Facile d'utilisation</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Accusamus dolore ea ipsum necessitatibus nemo omnis
+                  perferendis repellendus tempora voluptates voluptatum!
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary">
+                  <use xlink:href="images/sprite.svg#wordpress"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title">Facile d'utilisation</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Accusamus dolore ea ipsum necessitatibus nemo omnis
+                  perferendis repellendus tempora voluptates voluptatum!
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary">
+                  <use xlink:href="images/sprite.svg#wordpress"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title">Facile d'utilisation</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Accusamus dolore ea ipsum necessitatibus nemo omnis
+                  perferendis repellendus tempora voluptates voluptatum!
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="block">
+      <header class="block__header">
+        <h2>Ce que disent nos clients</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto
+          autem in iure neque odit optio perferendis praesentium quo veritatis
+          voluptate.
+        </p>
+      </header>
+      <div class="container">
+        <div class="card testimonial">
+          <div class="grid grid--1x2">
+            <div class="testimonial__image">
+              <img src="images/dad.webp" alt="Frank feeling proud" />
+              <span class="icon-container icon-container--accent">
+                <svg class="icon icon--white icon--small">
+                  <use xlink:href="images/sprite.svg#quotes"></use>
+                </svg>
+              </span>
+            </div>
+            <blockquote class="quote">
+              <p class="quote__text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aspernatur autem consequatur dolore et facere hic, iure laborum
+                magni necessitatibus optio?
+              </p>
+              <footer>
+                <div class="media">
+                  <div class="media__image">
+                    <svg class="icon icon--primary quote__line">
+                      <use xlink:href="images/sprite.svg#line"></use>
+                    </svg>
+                  </div>
+                  <div class="media__body">
+                    <h3 class="media__title quote__author">Frank</h3>
+                    <p class="quote__profession">Marteau Expert</p>
+                  </div>
+                </div>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="block block--dark footer">
+      <div class="container grid footer__sections">
+        <section class="collapsible collapsible--expanded footer__section">
+          <div class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Item 1</h2>
+            <svg class="icon icon--white collapsible__chevron">
+              <use xlink:href="images/sprite.svg#chevron"></use>
+            </svg>
+          </div>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <div class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Item 2</h2>
+            <svg class="icon icon--white collapsible__chevron">
+              <use xlink:href="images/sprite.svg#chevron"></use>
+            </svg>
+          </div>
+          <div class="collapsible__content">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur
+            ex incidunt labore, laudantium nemo nobis numquam quae rem sapiente
+            vel?
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <div class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Item 3</h2>
+            <svg class="icon icon--white collapsible__chevron">
+              <use xlink:href="images/sprite.svg#chevron"></use>
+            </svg>
+          </div>
+          <div class="collapsible__content">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur
+            ex incidunt labore, laudantium nemo nobis numquam quae rem sapiente
+            vel?
+          </div>
+        </section>
+        <section class="footer__brand">
+          <div class="nav__brand">
+            <img src="images/logo.svg" alt="" />
+            <h3 class="nav__title">Martengo</h3>
+          </div>
+          <p class="footer__copyright">Copyright 2024 - Noé Godin</p>
+        </section>
+      </div>
+    </footer>
+
     <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
