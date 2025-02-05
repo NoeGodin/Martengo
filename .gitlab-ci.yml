@@ -1,9 +1,9 @@
-image: busybox
+image: node:alpine
 
 pages:
   stage: deploy
   script:
-    - apk add --no-cache sass
+    - npm install -g sass
     - sass src/style.scss public/style.css
     - echo "Site will be deployed to $CI_PAGES_URL"
   artifacts:
