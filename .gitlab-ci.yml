@@ -4,7 +4,7 @@ pages:
   stage: deploy
   script:
     - npm install -g sass
-    - sass src/style.scss public/style.css
+    - sass public/css/styles.scss public/css/styles.css
     - echo "Site will be deployed to $CI_PAGES_URL"
   artifacts:
     paths:
