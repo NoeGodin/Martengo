@@ -2,4 +2,4 @@
 
 Project to learn over basic HTML / CSS / Javascript
 
-Served thanks to Gitlab Pages : https://dev-fundamentals-99d44d.gitlab.io/
+Served thanks to Gitlab Pages : https://martengo-899e88.gitlab.io
