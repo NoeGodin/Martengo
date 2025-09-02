@@ -1,5 +1,5 @@
-# Dev fundamentals
+# Martengo
 
 Project to learn over basic HTML / CSS / Javascript
 
-Served thanks to Gitlab Pages : https://martengo-899e88.gitlab.io
+Served thanks to Github Pages : https://noegodin.github.io/Martengo
